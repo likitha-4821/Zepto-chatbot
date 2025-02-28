@@ -9,7 +9,7 @@ st.set_page_config(page_title="Zepto Chatbot ",layout="centered")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-csv_url = "zepto1.csv"
+csv_url = "zepto.csv"
 
 try:
     df = pd.read_csv(csv_url)
